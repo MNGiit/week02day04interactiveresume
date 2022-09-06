@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- must have at least 5 -->
+        <div class="container">
+            <div class="nameBanner">John Doe</div>
+            <div class="contactInfoBanner">No where, United States | hacked@gmail.com </div>
+            <div class="navContainer">
+                <!-- Phone number -->
+                <div class="phone-number-dropdown">
+                    <div class="navTab"><p>Phone Number</p></div>
+                    <div class="drop-content">(123) 456-7890</div>
+                </div>
+                <!-- Technical Skill -->
+                
+                <div class="technical-skill-toggleContainer">
+                    <!-- Clickable toggle big box -->
+                    <div class="navTab" onclick="toggleInfo()">TECHNICAL SKILLS</div>
+                </div>
+
+                <!-- Education -->
+                <div class="educationToggleContainer">
+                     <!-- Clickable toggle big box -->
+                     <div class="navTab" onclick="toggleInfo()">EDUCATION</div>                   
+                </div>
+                <!-- Experience -->
+                <div class="educationToggleContainer">
+                    <!-- Clickable toggle big box -->
+                    <div class="navTab" onclick="toggleInfo()">EXPERIENCE</div>                   
+               </div>
+
+
+
+                <div class="toggleInfoContainer">
+
+                    <!-- Technical Skill -->
+                    <div class="toggleContentTechnicalSkill">
+                        <p>Languages: HTML, CSS, JavaScript, C#</p>
+                        <p>Software: Node.js, React.js, Unity3D, Blender</p>
+                    </div>
+                    <!-- -->
+
+                    <!-- Education -->
+                    <div class="toggleContentEducation">
+                        <p>Software Engineering | Per Scholas</p>
+                        <p>Masters of HTML Science | University of Internet</p>
+                        <p>Bachelor of Biology | City University of No where</p>
+                    </div>
+
+                    <!-- Experience -->
+                    <div class="toggleContentExperience">
+                        <p>Experience not found.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- lorem and the number of words you want -->
+        <!-- in CSS use vh when using height because that's what I saw -->
+        <script src="app.js"></script>
+    </body>
+</html>
